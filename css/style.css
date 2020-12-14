@@ -1,0 +1,104 @@
+body {
+    background-color: #2f3848;
+    max-width: 900px;
+    margin: auto;
+    font-family: "Open Sans";
+
+}
+
+
+h1 {
+    color: white;
+    margin: 0;
+    text-align: center;
+    background-color: #f05768;
+    height: 75px;
+    border-radius: 5px;
+    border-bottom: cyan solid 3px;
+    font-size: 45px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+nav {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    padding-right: 15px;
+    font-weight: bold;
+    
+}
+
+a {
+    color: yellowgreen;
+    
+}
+
+nav a {
+    text-decoration: none;
+}
+
+h2 {
+    color: #00ccff;
+    font-style: italic;
+
+}
+
+span {
+    color: yellowgreen;
+    text-decoration: underline
+}
+
+p {
+    font-size: 16px;
+    color: white;
+
+
+}
+
+.highlight {
+    position: relative;
+}
+
+h3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    color: white;
+    background-color: #f05768;
+    width: 40%;
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+#cameleonfirst {
+    position: absolute;
+    width: 900px;
+
+
+}
+
+.logo2 img {
+
+    height: 20px;
+}
+#cameleon img {
+    height: 100px;
+}
+
+#cameleon1 img{
+    /* position: relative; */
+
+}
